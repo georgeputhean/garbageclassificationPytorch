@@ -33,7 +33,7 @@ save(label_list, file="label_list.R")
 ```
 
 ```{r}
-#Varshutha
+#Varshitha
 ```
 
 ```{r}

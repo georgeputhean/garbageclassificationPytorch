@@ -29,7 +29,7 @@ library(reticulate)
 setwd("D:\\GitHub\\Umd\\garbageclassification\\Garbage classification")
 label_list <- dir("train/")
 output_n <- length(label_list)
-save(label_list, file="label_list.R")
+save(label_list, file="label_list.R") #till george
 ```
 
 ```{r}

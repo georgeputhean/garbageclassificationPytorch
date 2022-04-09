@@ -13,35 +13,45 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Markdown
 
 ```{r}
+devtools::install_github("rstudio/reticulate") 
+devtools::install_github("rstudio/tensorflow") 
+devtools::install_github("rstudio/keras")
+
 library(tidyverse)
 library(keras)
 library(tensorflow)
 library(reticulate)
-#adarsh
 ```
 
 ```{r}
-
-#install_tensorflow(extra_packages="pillow")
-#install_keras()
+install.packages("forecast",
+                 repos = c("http://rstudio.org/_packages",
+                           "http://cran.rstudio.com"))
 ```
 ```{r}
 
-setwd("D:\\GitHub\\Umd\\garbageclassification\\Garbage classification")
+setwd("C:/Users/adarsh/Documents/GitHub/garbageclassification/output")
 label_list <- dir("train/")
 output_n <- length(label_list)
 save(label_list, file="label_list.R") #till george
 ```
 
 ```{r}
-#Varshitha
+width <- 224
+height<- 224
+target_size <- c(width, height)
+rgb <- 3 #color channels
 ```
 
 ```{r}
-#Sowmya
 
+path_train <- "/train/"
+train_data_gen <- image_data_generator(rescale = 1/255, 
+  validation_split = .2)
 ```
+
+
 ```{r}
-# Anshika
+
 ```
 

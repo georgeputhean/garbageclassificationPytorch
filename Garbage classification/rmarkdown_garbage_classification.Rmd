@@ -11,17 +11,26 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-
 ```{r}
-devtools::install_github("rstudio/reticulate") 
-devtools::install_github("rstudio/tensorflow") 
-devtools::install_github("rstudio/keras")
-
 library(tidyverse)
 library(keras)
 library(tensorflow)
 library(reticulate)
 ```
+
+```{r}
+
+library(tidyverse)
+library(keras)
+library(tensorflow)
+library(reticulate)
+install_tensorflow()
+```
+
+```{r}
+install.packages("C:/Users/adarsh/Downloads/cli/cli_3.2.0.tar", repos=NULL, type="source")
+```
+
 
 ```{r}
 install.packages("forecast",

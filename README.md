@@ -1,35 +1,5 @@
 # garbageclassificationPytorch
 
-## _ **WRITTEN PROJECT REPORT** _
-
-**I.**** Suggested Cover Page:**
-
-Data Mining for Business (BUDT758T)
-
-Project Title: \_\_Waste Classification\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Team Members: Adarsh Challa - 117394641,
-
-Anshika Kapoor - 117444285,
-
-George Puthean - 117447941,
-
-Sowmya Murukuti - 118461809,
-
-Varshitha Yalakatori - 118454573
-
-## _ **ORIGINAL WORK STATEMENT** _
-
-We the undersigned certify that the actual composition of this proposal was done by us and is original work.
-
-| | **Typed Name** | **Signature** |
-| --- | --- | --- |
-| Contact Author | Adarsh Challa | Adarsh Challa |
-| | Anshika Kapoor | ![](RackMultipart20221110-1-63rf14_html_abe4e77684f06001.jpg) |
-| | George Puthean | ![](RackMultipart20221110-1-63rf14_html_c448979e90d7e135.png)
- |
-| | Sowmya Murukuti | ![](RackMultipart20221110-1-63rf14_html_dcbb0569e585df72.png) |
-| | Varshitha Yalakatori | Y.Varshitha |
 
 **II.**** Executive Summary**
 
